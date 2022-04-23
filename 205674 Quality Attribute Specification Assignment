@@ -1,0 +1,42 @@
+Name: Goon Ying Xin
+Matric No: 205674
+Group: Group 1
+
+Quality Attribute Specification Assignment 
+
+1-	You are working in company XYZ required you to develop ticketing system for Cinema, the owner of Cinema is focusing on two things:
+a.	Security system for purchase ticket using Credit Cards.
+b.	The performance of booking tickets.
+Write scenarios for each requirement to get you client signature.
+2-	You are working in governmental sector and your boss required you to develop architecture to remove the overhead of official stamping for the documents without losing security.
+Propose a proper architecture tactic to achieve this feature.
+3-	You are working in a starting company with limited budget and your boss required you suggest some tactics to reduce the maintainability cost of the software.
+Propose three tactics for this objective.
+
+•	Submit your answers at in your github host.
+•	We will pick up randomly 5 students next session to present their answers.
+Question 1
+a.	Data of Credit Cards are encrypted upon transaction before sending out to the respective bank’s server. No other unauthorized can retrieve the information.
+No contents of message can me altered during the transition for integrity purpose. 
+
+b.	Users can initiate up to 500 transactions of ticket booking in one minute stochastically under normal operations, and these transactions are processed with an average latency of not more than five seconds. 
+
+Question 2
+The proper architecture tactics should involve detect attacks which is verifying message integrity tactic. Documents that are required to remove the overhead stamping should be checked by using checksums or hash values. 
+Next, the architecture should be able to resist attacks.  This includes Identify Actor Tactic to identify the source for the documents, Authorize Actor’s Tactic to make sure that user performing the removal of the official stamping is authorized user, and Encrypt Data Tactic which encrypt the contents of the documents.
+The architecture is able to react to attacks by performing Lock Computer Tactic which lock out the computer user while identity is not being authorized to revoke their access on the documents. Inform Actor Tactic is also included for the architecture to detects the ongoing attacks and notifies the security team.
+Lastly, the architecture should be able to recover from attack by Service Restoration Tactic by using the CIA triad to achieve system restoration. The architecture should also be able to perform the Maintain Audit Trial Tactic to trace the activities and identify the attacker.
+
+Question 3
+a.	Applying transparent development process
+Transparent development process allows easier management, control, estimation and analyzation of the working process to ensure the effectiveness, scalability and success of a work project. It involves all company levels in the process and ensure that everyone is moving to the same direction. As everything goes as the plan, things will not mess up which requires a high maintenance cost.
+
+b.	Documentation
+Documents help to improve the process of maintenance which would contribute to lesser cost spent on maintenance. Developers can understand the code better with a proper documentation, and spend lesser time in figuring out the solutions.
+
+c.	Perform Regression Test
+Regression test is to ensures that the software can integrate wells with other software. While the regression test is skipped most probably the software will end up bringing up a coding error. Therefore performing regression test could reduce the maintenance cost by reducing errors that might appear. 
+
+
+
+ 
